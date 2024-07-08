@@ -10,5 +10,11 @@ import { AlertController } from "@ionic/angular/standalone";
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
 export class HomePage {
-  constructor() {}
+
+  private urlapi: string;
+
+  constructor() {
+    this.urlapi = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
+  }
+
 }
