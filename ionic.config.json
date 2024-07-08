@@ -1,0 +1,7 @@
+{
+  "name": "apod",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
